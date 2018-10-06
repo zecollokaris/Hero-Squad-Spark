@@ -9,12 +9,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1097" />
-    <option name="y" value="312" />
+    <option name="x" value="890" />
+    <option name="y" value="253" />
     <option name="width" value="1126" />
     <option name="height" value="592" />
   </component>
   <component name="PropertiesComponent">
+    <property name="add_unversioned_files" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="VcsContentAnnotationSettings">
