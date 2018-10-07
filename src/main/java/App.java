@@ -42,14 +42,18 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        get("/squad", (request, response) -> {
+        get("/hero", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            String squadname = request.queryParams("squadname");
-            String squadcause = request.queryParams("squadcause");
-            String membernumber = request.queryParams("membernumber");
-            model.put("squadname", squadname);
-            model.put("squadcause", squadcause);
-            model.put("membernumber", membernumber);
+            String heroname = request.queryParams("heroname");
+            String whichsquad = request.queryParams("whichsquad");
+            String heropower = request.queryParams("heropower");
+            String heroweakness = request.queryParams("heroweakness");
+            String heroage = request.queryParams("heroage");
+            model.put("heroname", heroname);
+            model.put("whichsquad", whichsquad);
+            model.put("heropower", heropower);
+            model.put("heroweakness", heroweakness);
+            model.put("heroage", heroage);
             model.put("template", "templates/squadteam.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
