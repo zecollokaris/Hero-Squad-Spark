@@ -32,7 +32,7 @@ public class App {
             model.put("squadname", squadname);
             model.put("squadcause", squadcause);
             model.put("membernumber", membernumber);
-            model.put("template", "templates/hero.vtl");
+            model.put("template", "templates/squadteam.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
     }
