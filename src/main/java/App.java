@@ -24,12 +24,14 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        get("/heros", (request, response) -> {
+        get("/squad", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            String recipient = request.queryParams("recipient");
-            String sender = request.queryParams("sender");
-            model.put("recipient", recipient);
-            model.put("sender", sender);
+            String squadname = request.queryParams("squadname");
+            String squadcause = request.queryParams("squadcause");
+            String membernumber = request.queryParams("membernumber");
+            model.put("squadname", squadname);
+            model.put("squadcause", squadcause);
+            model.put("membernumber", membernumber);
             model.put("template", "templates/hero.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
