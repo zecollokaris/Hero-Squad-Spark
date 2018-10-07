@@ -35,5 +35,11 @@ public class App {
             model.put("template", "templates/squadteam.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+
+        get("/heroform", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("template", "templates/heroform.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
     }
 }
