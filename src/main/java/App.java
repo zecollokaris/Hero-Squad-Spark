@@ -41,5 +41,17 @@ public class App {
             model.put("template", "templates/heroform.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+
+        get("/squad", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            String squadname = request.queryParams("squadname");
+            String squadcause = request.queryParams("squadcause");
+            String membernumber = request.queryParams("membernumber");
+            model.put("squadname", squadname);
+            model.put("squadcause", squadcause);
+            model.put("membernumber", membernumber);
+            model.put("template", "templates/squadteam.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
     }
 }
