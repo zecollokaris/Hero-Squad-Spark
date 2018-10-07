@@ -54,7 +54,7 @@ public class App {
             model.put("heropower", heropower);
             model.put("heroweakness", heroweakness);
             model.put("heroage", heroage);
-            model.put("template", "templates/squadteam.vtl");
+            model.put("template", "templates/hero.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
     }
