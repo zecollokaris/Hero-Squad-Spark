@@ -1,12 +1,7 @@
 body{
     background-image: url("images/avenger.png");
     background-repeat: no-repeat;
-    height: 100%;
 
-}
-
-.home{
-height: 20px;
 }
 
 
@@ -81,6 +76,7 @@ a {
 
 #navbar li {
   display: inline-block;
+  font-size: 20px;
 }
 
 #navbar li a {
@@ -121,13 +117,13 @@ a {
 }
 
 #navbar li a:after {
-  background: rgb(13, 26, 38);
+  background: white;
   right: 0;
   /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
 }
 
 #navbar li a:hover:before {
-  background: rgb(13, 26, 38);
+  background: white;
   width: 100%;
   transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
 }
