@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "friend"
 version = '1.0'
-applicationName = "Hero-Squad"
+applicationName = "HeroSquad"
 mainClassName = "App"
 
 repositories {
