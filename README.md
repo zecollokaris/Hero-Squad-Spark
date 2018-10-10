@@ -64,4 +64,22 @@ Link:-> ```https://github.com/zecollokaris/Hero-Squad-Spark```
 ```
 gradle run
 ```
+### TECHNOLOGIES USED:
 
+- **[Java](https://java.com/en/download/) - source language.**
+
+- **[Gradle](https://gradle.org/) for dependency management and running tasks.**
+
+- Bootstrap.
+
+- Cascading Style Sheets.
+
+- Apache Velocity Engine.
+
+## Support & Contact
+
+- Mobile number: (+254) 798731203
+
+- Email Address: collo.kariss@gmail.com
+
+- github-username: zecollokaris
