@@ -3,6 +3,7 @@ apply plugin: 'application'
 
 archivesBaseName = "friend"
 version = '1.0'
+applicationName = "Hero-Squad"
 mainClassName = "App"
 
 repositories {
@@ -16,3 +17,6 @@ dependencies {
     
     testCompile group: 'junit', name: 'junit', version: '4.+'
 }
+
+defaultTasks = ['clean']
+task stage(dependsOn: ['clean', 'installApp'])
