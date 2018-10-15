@@ -2,7 +2,16 @@
 
 # DISPLAY
 
-
+![](Spec.md/HeroSquad.png)
+---
+![](Spec.md/HeroSquad2.png)
+---
+![](Spec.md/HeroSquad3.png)
+---
+![](Spec.md/HeroSquad4.png)
+---
+![](Spec.md/HeroSquad5.png)
+---
 
 # AUTHOR
 
