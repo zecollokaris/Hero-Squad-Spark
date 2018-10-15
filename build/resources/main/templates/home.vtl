@@ -1,11 +1,21 @@
 <header class="masthead"style="background-image: url('images/avengplain.png'); height: 730px; background background-repeat: no-repeat;">
 
-<h1>SQUAD CREATED</h1>
-
-<p>Squad Name $squadname</p>
-
-<p>Squad Cause $squadcause</p>
-
-<p>Number of Squad Members $membernumber</p>
+<div class="homesquad">
+    <p>.</p>
+    <h1 style="font-family: 'Anton', sans-serif; margin-top:10%;color:white;font-size:50px;">SQUAD LIST!</h1>
+    <h4 style="color:white;">The following is a partial list of SuperHero Teams.</h4>
 
 
+    <h3 style="font-family: 'Chakra Petch', sans-serif; margin-top:5%;">$squadname</h3>
+
+    <h4 style="font-family: 'Hi Melody', cursive;">$squadcause</h4>
+    <button class="bubbly-button" style="">View Heros!</button>
+    <hr style="width:50%;opacity:0.2">
+
+</div>
+#if ($squadname)
+  <h3>$squadname</h3>
+  <h4>$squadcause</h4>
+#else
+  It doesn't look like there are any squads Please Add!
+#end
