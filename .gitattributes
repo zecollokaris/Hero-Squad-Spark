@@ -1,2 +1,2 @@
 build/* linguist-vendored
-src/main/resources/* linguist-vendored
+src/main/resources/public/* linguist-vendored
