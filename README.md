@@ -96,6 +96,5 @@ gradle run
 - github-username: zecollokaris
 
 ## License
----
 
 The app is licensed by MIT. [**HERE**](LICENSE)
