@@ -94,3 +94,8 @@ gradle run
 - Email Address: collo.kariss@gmail.com
 
 - github-username: zecollokaris
+
+## License
+---
+
+The app is licensed by MIT. [**HERE**](LICENSE)
